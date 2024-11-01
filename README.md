@@ -23,21 +23,4 @@ Columns and theie meaning
 here the 'loan_staus' is the column to be predicted and others are the features which will be used for prediction.
 
 
-File Structure
-----------------------
-
-bank_customer/
-│
-├── app.py                               # Main application file
-├── bank-customer-classification.ipynb   # ipbny fle of creating the model
-├── credit_risk_dataset.csv.zip          # dataset for training   
-├── encoders.pkl                         # encoders for categorical column
-├── rfc_model.pkl                        # Model for the prediction
-└─── templates/                          # Folder for HTML files
-|     ├── home.html                      # Main/home page    
-|     └── prediction.html                # Prediction result page
-└── README.md                            # Project documentation
-
-
-
 Used Random Forest Classifier accuracy score is 92.49%
